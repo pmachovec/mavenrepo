@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.pmachovec",
+    "module": "githooker",
+    "version": "1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "7mhexz4lu5h45a4wji45qe5gl4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 13,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "githooker-1.0.4.jar",
+          "url": "githooker-1.0.4.jar",
+          "size": 66130,
+          "sha512": "603b79a73a04793b6ceb325bcd795cd107351ccabbb2207a02181d99bc1b75816e31357885a75bcd4f1354981c8d9e440dcb4d8ac5e3a536073a27c13ca32ccb",
+          "sha256": "af8b9c07731bb5bc4350085f1a340254e4ddda72b17f4f398cb704fb0a32be9a",
+          "sha1": "492a3d21995a3687fb081e295e0e1b1e5796c7ce",
+          "md5": "53653c2645bc7f37a3c7f023abace497"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 13,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.60"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-exec",
+          "version": {
+            "requires": "1.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "githooker-1.0.4.jar",
+          "url": "githooker-1.0.4.jar",
+          "size": 66130,
+          "sha512": "603b79a73a04793b6ceb325bcd795cd107351ccabbb2207a02181d99bc1b75816e31357885a75bcd4f1354981c8d9e440dcb4d8ac5e3a536073a27c13ca32ccb",
+          "sha256": "af8b9c07731bb5bc4350085f1a340254e4ddda72b17f4f398cb704fb0a32be9a",
+          "sha1": "492a3d21995a3687fb081e295e0e1b1e5796c7ce",
+          "md5": "53653c2645bc7f37a3c7f023abace497"
+        }
+      ]
+    }
+  ]
+}
