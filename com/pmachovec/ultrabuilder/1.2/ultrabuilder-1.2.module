@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.pmachovec",
+    "module": "ultrabuilder",
+    "version": "1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "i7m4mkvbkrgerg5plosirucimm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ultrabuilder-1.2.jar",
+          "url": "ultrabuilder-1.2.jar",
+          "size": 14567,
+          "sha512": "4aabc55b904691a959c00594b883e5f2d5f18056c26f823dd0150ac17afbbb48184c9b20ad1c5fd4c1b51b19396032dd8bf988c4b4e9758309b7436ff98790b4",
+          "sha256": "5cb4fef2c743a29e44ae0e15ec79bb0af2a7a5e09c3740197dd1e672c486ee89",
+          "sha1": "9af1093ea872a0efd562a2ccc2db0b1dacbff122",
+          "md5": "25eaf8c5c33b5afc79e05c1d1a52a3de"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ultrabuilder-1.2.jar",
+          "url": "ultrabuilder-1.2.jar",
+          "size": 14567,
+          "sha512": "4aabc55b904691a959c00594b883e5f2d5f18056c26f823dd0150ac17afbbb48184c9b20ad1c5fd4c1b51b19396032dd8bf988c4b4e9758309b7436ff98790b4",
+          "sha256": "5cb4fef2c743a29e44ae0e15ec79bb0af2a7a5e09c3740197dd1e672c486ee89",
+          "sha1": "9af1093ea872a0efd562a2ccc2db0b1dacbff122",
+          "md5": "25eaf8c5c33b5afc79e05c1d1a52a3de"
+        }
+      ]
+    }
+  ]
+}
